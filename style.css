@@ -1,0 +1,125 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cor de fundo do site */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #030b18;
+    line-height: 1.6;
+    padding-top: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #43a4d1;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Estilo da seção de introdução */
+.intro {
+    background-color: white;
+    padding: 40px 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Estilo da seção de exemplos */
+.exemplos {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.exemplos h2 {
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 15px;
+}
+
+.exemplos ul {
+    list-style-type: none;
+}
+
+.exemplos li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Estilo para a galeria de imagens */
+.imagens {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.imagens h2 {
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    width: 48%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Container comum */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
